@@ -69,9 +69,12 @@ header {
     color: rgb(24, 175, 26);
     font-family: first;
   }
-  #demo-positioned-menu {
+  .css-g3hgs1-MuiBackdrop-root-MuiModal-backdrop {
     width: 100vw;
     height: 100vh;
+    position: absolute;
+
+    top: 100%;
   }
   .links {
     height: 100vh;
