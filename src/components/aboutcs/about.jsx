@@ -3,10 +3,10 @@ import amet3x4 from "../../img/black.avif";
 export default function About() {
   return (
     <div className="about">
-      <div className="container">
+      <div className="container3">
         <div className="about-amet">
           <div className="amet-info-base">
-            <h1 className="info-start">Биография</h1>
+            <h1 className="info-start">Биография </h1>
             <div className="p-base">
               <p className="info-p">
                 <span className="nick">AMITI MAX</span> - настоящее имя Махсетов
@@ -51,9 +51,6 @@ export default function About() {
                 презентовали ряд хитовых синглов.
               </p>
             </div>
-          </div>
-          <div className="foto-ameta">
-            <img src={amet3x4} alt="" className="foto-black" />
           </div>
         </div>
       </div>
