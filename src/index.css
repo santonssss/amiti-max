@@ -28,3 +28,11 @@ code {
   font-family: third;
   src: url(./fonts/third.ttf);
 }
+@font-face {
+  font-family: info;
+  src: url(./fonts/four.ttf);
+}
+@font-face {
+  font-family: paragraph;
+  src: url(./fonts/five.ttf);
+}

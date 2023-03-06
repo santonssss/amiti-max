@@ -1,11 +1,84 @@
 .about {
-  min-height: 90vh;
+  margin: 30px;
 }
-.container {
+.about-amet {
+  height: 120vh;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.foto-ameta {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container3 {
   width: 95%;
   max-width: 1200px;
   margin: 0 auto;
 }
-.information-block {
+.amet-info-base {
+  flex: 1;
+
+  padding: 30px;
+  overflow: scroll;
+}
+.foto-black {
+  width: 50%;
   height: 100%;
+  object-fit: cover;
+}
+.nick {
+  font-family: first;
+}
+.info-start {
+  font-family: info;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.p-base {
+  margin: 20px 0;
+  width: 100%;
+  height: 80%;
+  line-height: 25px;
+  font-family: paragraph;
+}
+.info-p {
+  font-family: paragraph;
+  font-size: 25px;
+  font-weight: 700;
+}
+.info-h2 {
+  font-family: info;
+  font-size: 25px;
+  margin: 25px 0;
+}
+@media (max-width: 1008px) and (min-width: 560px) {
+  .about-amet {
+    height: 70vh;
+    flex-direction: column-reverse;
+  }
+  .amet-info-base {
+    padding: 0;
+  }
+  .foto-black {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media (max-width: 560px) and (min-width: 300px) {
+  .about-amet {
+    height: 70vh;
+    flex-direction: column-reverse;
+  }
+  .amet-info-base {
+    padding: 0;
+  }
+  .foto-black {
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+  }
 }
