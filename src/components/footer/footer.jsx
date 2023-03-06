@@ -8,17 +8,17 @@ export default function Footer() {
     <footer>
       <div className="menus">
         <li>
-          <NavLink target={"_blank"} to="youtube" className="footer-link">
+          <NavLink to="youtube" className="footer-link">
             <AiFillInstagram id="sarvar" />
           </NavLink>
         </li>
         <li>
-          <NavLink target={"_blank"} className="footer-link">
+          <NavLink className="footer-link">
             <SiTelegram id="sarvar" />
           </NavLink>
         </li>
         <li>
-          <NavLink target={"_blank"} className="footer-link">
+          <NavLink className="footer-link">
             <AiFillYoutube id="sarvar" />
           </NavLink>
         </li>

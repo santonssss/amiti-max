@@ -12,7 +12,7 @@
   max-width: 1300px;
   display: flex;
   margin: 0 auto;
-  min-height: 70vh;
+  min-height: 7 0vh;
 }
 .left {
   flex: 3.5;
@@ -58,6 +58,9 @@
   color: rgb(18, 149, 167);
   font-family: third;
 }
+.amet-disp {
+  display: none;
+}
 @media (max-width: 679px) and (min-width: 300px) {
   .container2 {
     flex-direction: column;
@@ -68,10 +71,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 5px;
   }
   .right {
-    flex: 1;
-    margin-left: 5px;
+    flex: 1.5;
+  }
+  .amet-disp {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  .amethome {
+    display: none;
   }
 }

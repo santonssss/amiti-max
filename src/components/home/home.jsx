@@ -1,6 +1,7 @@
 import "./home.css";
 import { NavLink, Route, Routes } from "react-router-dom";
 import ametHomeLeft from "../../img/amet-home-right.png";
+import amet300px from "../../img/amet-300px.png";
 import backfon from "../../img/back-fon.jpeg";
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         </div>
         <div className="right">
           <img className="amethome" src={ametHomeLeft} alt="" />
+          <img src={amet300px} alt="" className="amet-disp" />
         </div>
       </div>
     </div>
