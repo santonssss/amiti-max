@@ -1,0 +1,11 @@
+footer {
+  height: 15vh;
+  background-color: rgba(128, 0, 128, 0.36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sarvar {
+  font-size: 50px;
+  color: rgb(45, 5, 65);
+}

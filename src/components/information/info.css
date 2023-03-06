@@ -1,0 +1,93 @@
+header {
+  background: rgb(45, 5, 65);
+  background: linear-gradient(
+    90deg,
+    rgba(45, 5, 65, 1) 0%,
+    rgba(13, 65, 5, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.achiev {
+  color: #ff0c9e !important;
+}
+.logo {
+  font-size: 35px;
+  letter-spacing: 5px;
+  color: rgb(170, 18, 181);
+  text-shadow: 0 5px #d7d188;
+  font-weight: 500;
+  font-family: second;
+  font-weight: 900;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.navbar {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menus {
+  display: flex;
+  list-style: none;
+}
+.menus li {
+  margin: 0 30px;
+}
+.menus li a {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 25px;
+  font-weight: 100;
+  color: rgb(24, 175, 26);
+  font-family: first;
+}
+.btn {
+  display: none;
+  background-color: transparent;
+}
+
+@media (max-width: 1125px) and (min-width: 300px) {
+  .menus li {
+    display: none;
+  }
+  .btn {
+    display: block;
+  }
+  .link a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(24, 175, 26);
+    font-family: first;
+  }
+  #demo-positioned-menu {
+    width: 100vw;
+    height: 100vh;
+  }
+  .links {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .link {
+    margin: 50px 0;
+  }
+}
+
+.amet-png {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}

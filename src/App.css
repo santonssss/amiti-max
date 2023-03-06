@@ -1,38 +1,61 @@
+* {
+  font-family: csfon, sans-serif;
+  user-select: none;
+}
 .App {
-  text-align: center;
+  min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.main-page {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.sidebar__left {
+  flex: 1;
+}
+.information__page {
+  flex: 1;
+}
+.sidebar__right {
+  flex: 1;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(1, 6fr);
+  row-gap: 15px;
+  min-height: 50vh;
+  margin-top: 10px;
+}
+.card {
+  height: 400px;
+  background-color: red;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  align-items: center;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 0;
+  filter: brightness(0.3);
+}
+.container {
+  width: 95%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.btn {
+  min-width: 20%;
+  padding: 20px 15px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.492);
+}
+.btn a {
+  text-decoration: none;
+  font-size: 20px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
