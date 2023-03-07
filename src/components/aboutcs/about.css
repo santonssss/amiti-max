@@ -2,7 +2,6 @@
   margin: 30px;
 }
 .about-amet {
-  height: 120vh;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -16,7 +15,7 @@
   flex: 1;
 
   padding: 30px;
-  overflow: scroll;
+  min-height: 50vh;
 }
 .foto-black {
   width: 80px;

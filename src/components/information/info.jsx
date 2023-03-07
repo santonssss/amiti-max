@@ -48,16 +48,13 @@ export default function Info() {
                   }}
                 >
                   <div className="links">
-                    <li className="link">
-                      <NavLink to={"achievement"} className="achiev">
-                        Достижение
+                    <li>
+                      <NavLink to={"/"} className="achiev">
+                        Домой
                       </NavLink>
                     </li>
                     <li className="link">
                       <NavLink to={"about"}>Информация</NavLink>
-                    </li>
-                    <li className="link">
-                      <NavLink to={"creation"}>Творчество</NavLink>
                     </li>
                     <li className="link">
                       <NavLink to={"fans"}>Фанаты</NavLink>
@@ -66,16 +63,14 @@ export default function Info() {
                 </Menu>
               </div>
               <li>
-                <NavLink to={"achievement"} className="achiev">
-                  Достижение
+                <NavLink to={"/"} className="achiev">
+                  Домой
                 </NavLink>
               </li>
               <li>
                 <NavLink to={"about"}>Информация</NavLink>
               </li>
-              <li>
-                <NavLink to={"creation"}>Творчество</NavLink>
-              </li>
+
               <li>
                 <NavLink to={"fans"}>Фанаты</NavLink>
               </li>
