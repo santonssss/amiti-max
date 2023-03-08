@@ -1,20 +1,33 @@
 .Fans {
   background-color: rgba(0, 0, 255, 0.239);
+  min-height: 80vh;
 }
 .container7 {
   width: 95%;
   max-width: 1700px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80vh;
 }
-.image-list {
-  width: 100%;
+.cardss {
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 15px;
+  row-gap: 15px;
+}
+.card {
+  height: 350px;
+}
+.amets {
   height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
-.css-dasnyc-MuiImageListItemBar-title {
-  font-family: second;
-  font-size: 15px;
+
+@media (max-width: 660px) and (min-width: 300px) {
+  .cardss {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    height: 400px;
+  }
 }

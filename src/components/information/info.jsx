@@ -48,10 +48,8 @@ export default function Info() {
                   }}
                 >
                   <div className="links">
-                    <li>
-                      <NavLink to={"/"} className="achiev">
-                        Домой
-                      </NavLink>
+                    <li className="link">
+                      <NavLink to={"/"}>Домой</NavLink>
                     </li>
                     <li className="link">
                       <NavLink to={"about"}>Информация</NavLink>
@@ -62,10 +60,8 @@ export default function Info() {
                   </div>
                 </Menu>
               </div>
-              <li>
-                <NavLink to={"/"} className="achiev">
-                  Домой
-                </NavLink>
+              <li className="link">
+                <NavLink to={"/"}>Домой</NavLink>
               </li>
               <li>
                 <NavLink to={"about"}>Информация</NavLink>
